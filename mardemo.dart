@@ -8,5 +8,7 @@ void main(){
     print(studentdata);
     print(studentdata["name"]);
     print(studentdata["Course"]);
+    print(studentdata.keys);
+    print(studentdata.values);
 
 }
