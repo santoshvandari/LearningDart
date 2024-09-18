@@ -1,5 +1,6 @@
 import 'dart:io';
 
+// Factorial Calculation Method
 int factorial(int n) {
   int fact = 1;
   for (int i = 1; i <= n; i++) {
@@ -8,6 +9,7 @@ int factorial(int n) {
   return fact;
 }
 
+// Check the Inputed is Number r not
 bool isNumeric(String s) {
   if (s == null) {
     return false;
@@ -15,6 +17,7 @@ bool isNumeric(String s) {
   return int.tryParse(s) != null;
 }
 
+// Main Function Starts here
 void main() {
   print("Enter a Number: ");
   var input = stdin.readLineSync();
