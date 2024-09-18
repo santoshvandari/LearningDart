@@ -12,7 +12,10 @@ void main(){
 
     print("Enter a Number: ");
 
-    int num=stdin.readLineSync();
+    var num=stdin.readLineSync();
+    // Converting the String into int
+    num=Integer.parseInt(num);
+    
     print("Factorial of $num is : ${factorial(num)}");
 
 }
